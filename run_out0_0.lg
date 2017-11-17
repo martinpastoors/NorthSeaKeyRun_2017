@@ -1,0 +1,480 @@
+SMS version October 2017 using ADMB version 11.4
+November 13, 2017 11:57:16
+no. of species: 27  no. of predators: 20  no. of other predators:15
+first VPA species no.:16  first VPA species as prey:0
+PRELIMINARY_CALCS_SECTION begins
+PRELIMINARY_CALCS_SECTION done
+
+Initial statistics: 1671 variables; iteration 0; function evaluation 0; phase 1
+Function value  5.0940831e+004; maximum gradient component mag  4.2651e+006
+
+Intermediate statistics: 1671 variables; iteration 10; function evaluation 18; phase 1
+Function value  3.4719985e+004; maximum gradient component mag  2.5985e+006
+1671 variables; iteration 20; function evaluation 31; phase 1
+Function value  3.1423174e+004; maximum gradient component mag  1.4537e+006
+1671 variables; iteration 30; function evaluation 51; phase 1
+Function value  2.5339429e+004; maximum gradient component mag -3.1507e+006
+1671 variables; iteration 40; function evaluation 63; phase 1
+Function value  1.8888836e+004; maximum gradient component mag -4.7798e+005
+1671 variables; iteration 50; function evaluation 73; phase 1
+Function value  1.7100042e+004; maximum gradient component mag -5.7090e+005
+1671 variables; iteration 60; function evaluation 84; phase 1
+Function value  1.5331898e+004; maximum gradient component mag -5.4184e+005
+1671 variables; iteration 70; function evaluation 94; phase 1
+Function value  1.3960617e+004; maximum gradient component mag -5.2396e+005
+1671 variables; iteration 80; function evaluation 105; phase 1
+Function value  1.2815624e+004; maximum gradient component mag -6.8435e+005
+1671 variables; iteration 90; function evaluation 115; phase 1
+Function value  1.2124935e+004; maximum gradient component mag -6.0827e+005
+1671 variables; iteration 100; function evaluation 125; phase 1
+Function value  1.1257853e+004; maximum gradient component mag -4.3019e+005
+1671 variables; iteration 110; function evaluation 135; phase 1
+Function value  1.0258435e+004; maximum gradient component mag -3.9656e+005
+1671 variables; iteration 120; function evaluation 145; phase 1
+Function value  9.2232554e+003; maximum gradient component mag -4.7713e+005
+1671 variables; iteration 130; function evaluation 155; phase 1
+Function value  8.4508511e+003; maximum gradient component mag -5.8945e+005
+1671 variables; iteration 140; function evaluation 166; phase 1
+Function value  7.9228490e+003; maximum gradient component mag -5.2788e+005
+1671 variables; iteration 150; function evaluation 176; phase 1
+Function value  7.3203052e+003; maximum gradient component mag -4.4665e+005
+1671 variables; iteration 160; function evaluation 187; phase 1
+Function value  6.8438986e+003; maximum gradient component mag -4.4670e+005
+1671 variables; iteration 170; function evaluation 197; phase 1
+Function value  6.4539091e+003; maximum gradient component mag -4.1119e+005
+1671 variables; iteration 180; function evaluation 207; phase 1
+Function value  5.9953029e+003; maximum gradient component mag -4.4738e+005
+1671 variables; iteration 190; function evaluation 218; phase 1
+Function value  5.5381464e+003; maximum gradient component mag -4.1017e+005
+1671 variables; iteration 200; function evaluation 228; phase 1
+Function value  5.0787938e+003; maximum gradient component mag -4.0367e+005
+1671 variables; iteration 210; function evaluation 238; phase 1
+Function value  4.6112430e+003; maximum gradient component mag -4.1485e+005
+1671 variables; iteration 220; function evaluation 248; phase 1
+Function value  4.2382182e+003; maximum gradient component mag -4.9690e+005
+1671 variables; iteration 230; function evaluation 258; phase 1
+Function value  3.9185973e+003; maximum gradient component mag -4.8480e+005
+1671 variables; iteration 240; function evaluation 268; phase 1
+Function value  3.6516181e+003; maximum gradient component mag -4.6051e+005
+1671 variables; iteration 250; function evaluation 278; phase 1
+Function value  3.4459049e+003; maximum gradient component mag -4.1703e+005
+1671 variables; iteration 260; function evaluation 288; phase 1
+Function value  3.3212161e+003; maximum gradient component mag -4.4532e+005
+1671 variables; iteration 270; function evaluation 298; phase 1
+Function value  3.2080533e+003; maximum gradient component mag -4.9035e+005
+1671 variables; iteration 280; function evaluation 308; phase 1
+Function value  3.1080270e+003; maximum gradient component mag -5.3008e+005
+1671 variables; iteration 290; function evaluation 318; phase 1
+Function value  3.0239364e+003; maximum gradient component mag -5.6208e+005
+1671 variables; iteration 300; function evaluation 328; phase 1
+Function value  2.9444637e+003; maximum gradient component mag -5.8203e+005
+1671 variables; iteration 310; function evaluation 338; phase 1
+Function value  2.8663911e+003; maximum gradient component mag -6.2930e+005
+1671 variables; iteration 320; function evaluation 348; phase 1
+Function value  2.8056680e+003; maximum gradient component mag -6.6328e+005
+1671 variables; iteration 330; function evaluation 358; phase 1
+Function value  2.7483507e+003; maximum gradient component mag -6.9207e+005
+1671 variables; iteration 340; function evaluation 368; phase 1
+Function value  2.6920720e+003; maximum gradient component mag -6.8352e+005
+1671 variables; iteration 350; function evaluation 378; phase 1
+Function value  2.6274103e+003; maximum gradient component mag -6.7646e+005
+1671 variables; iteration 360; function evaluation 388; phase 1
+Function value  2.5578378e+003; maximum gradient component mag -6.8125e+005
+1671 variables; iteration 370; function evaluation 398; phase 1
+Function value  2.5063784e+003; maximum gradient component mag -6.7275e+005
+1671 variables; iteration 380; function evaluation 408; phase 1
+Function value  2.4348250e+003; maximum gradient component mag -6.5032e+005
+1671 variables; iteration 390; function evaluation 418; phase 1
+Function value  2.3543305e+003; maximum gradient component mag -6.3953e+005
+1671 variables; iteration 400; function evaluation 428; phase 1
+Function value  2.2682687e+003; maximum gradient component mag -6.2134e+005
+1671 variables; iteration 410; function evaluation 438; phase 1
+Function value  2.1719590e+003; maximum gradient component mag -6.1176e+005
+1671 variables; iteration 420; function evaluation 448; phase 1
+Function value  2.0818839e+003; maximum gradient component mag -5.9347e+005
+1671 variables; iteration 430; function evaluation 458; phase 1
+Function value  2.0034032e+003; maximum gradient component mag -5.7167e+005
+1671 variables; iteration 440; function evaluation 468; phase 1
+Function value  1.9296092e+003; maximum gradient component mag -5.5223e+005
+1671 variables; iteration 450; function evaluation 478; phase 1
+Function value  1.8513489e+003; maximum gradient component mag -5.0827e+005
+1671 variables; iteration 460; function evaluation 488; phase 1
+Function value  1.7737995e+003; maximum gradient component mag -5.1921e+005
+1671 variables; iteration 470; function evaluation 498; phase 1
+Function value  1.6784854e+003; maximum gradient component mag -4.5540e+005
+1671 variables; iteration 480; function evaluation 508; phase 1
+Function value  1.5823409e+003; maximum gradient component mag -4.1836e+005
+1671 variables; iteration 490; function evaluation 518; phase 1
+Function value  1.5139877e+003; maximum gradient component mag -4.0346e+005
+1671 variables; iteration 500; function evaluation 528; phase 1
+Function value  1.4306293e+003; maximum gradient component mag -3.9897e+005
+1671 variables; iteration 510; function evaluation 538; phase 1
+Function value  1.3414271e+003; maximum gradient component mag -3.6170e+005
+1671 variables; iteration 520; function evaluation 548; phase 1
+Function value  1.2641379e+003; maximum gradient component mag -3.7328e+005
+1671 variables; iteration 530; function evaluation 558; phase 1
+Function value  1.1936766e+003; maximum gradient component mag -3.5394e+005
+1671 variables; iteration 540; function evaluation 568; phase 1
+Function value  1.1229154e+003; maximum gradient component mag -3.5952e+005
+1671 variables; iteration 550; function evaluation 578; phase 1
+Function value  1.0532272e+003; maximum gradient component mag -3.5293e+005
+1671 variables; iteration 560; function evaluation 588; phase 1
+Function value  9.9709500e+002; maximum gradient component mag -3.6871e+005
+1671 variables; iteration 570; function evaluation 598; phase 1
+Function value  9.3780510e+002; maximum gradient component mag -3.7786e+005
+1671 variables; iteration 580; function evaluation 608; phase 1
+Function value  8.8355818e+002; maximum gradient component mag -3.8410e+005
+1671 variables; iteration 590; function evaluation 618; phase 1
+Function value  8.3610067e+002; maximum gradient component mag -3.5513e+005
+1671 variables; iteration 600; function evaluation 628; phase 1
+Function value  7.9387505e+002; maximum gradient component mag -3.4979e+005
+1671 variables; iteration 610; function evaluation 638; phase 1
+Function value  7.4728840e+002; maximum gradient component mag -3.3262e+005
+1671 variables; iteration 620; function evaluation 648; phase 1
+Function value  7.0683820e+002; maximum gradient component mag -3.2143e+005
+1671 variables; iteration 630; function evaluation 658; phase 1
+Function value  6.5183472e+002; maximum gradient component mag -3.0635e+005
+1671 variables; iteration 640; function evaluation 668; phase 1
+Function value  5.9062492e+002; maximum gradient component mag -3.0346e+005
+1671 variables; iteration 650; function evaluation 678; phase 1
+Function value  5.3705881e+002; maximum gradient component mag -2.9078e+005
+1671 variables; iteration 660; function evaluation 688; phase 1
+Function value  4.8993584e+002; maximum gradient component mag -2.7077e+005
+1671 variables; iteration 670; function evaluation 698; phase 1
+Function value  4.4440488e+002; maximum gradient component mag -2.5140e+005
+1671 variables; iteration 680; function evaluation 708; phase 1
+Function value  3.9469230e+002; maximum gradient component mag -2.2393e+005
+1671 variables; iteration 690; function evaluation 718; phase 1
+Function value  3.5334022e+002; maximum gradient component mag -2.1939e+005
+1671 variables; iteration 700; function evaluation 728; phase 1
+Function value  3.1573001e+002; maximum gradient component mag -2.0576e+005
+1671 variables; iteration 710; function evaluation 738; phase 1
+Function value  2.7222845e+002; maximum gradient component mag -1.8084e+005
+1671 variables; iteration 720; function evaluation 748; phase 1
+Function value  2.2963001e+002; maximum gradient component mag -1.7918e+005
+1671 variables; iteration 730; function evaluation 758; phase 1
+Function value  1.8764397e+002; maximum gradient component mag -1.7365e+005
+1671 variables; iteration 740; function evaluation 768; phase 1
+Function value  1.3800573e+002; maximum gradient component mag -1.7528e+005
+1671 variables; iteration 750; function evaluation 778; phase 1
+Function value  9.0817009e+001; maximum gradient component mag -1.7263e+005
+1671 variables; iteration 760; function evaluation 788; phase 1
+Function value  4.2633935e+001; maximum gradient component mag -1.5577e+005
+1671 variables; iteration 770; function evaluation 798; phase 1
+Function value -7.9497118e+000; maximum gradient component mag -1.6287e+005
+1671 variables; iteration 780; function evaluation 808; phase 1
+Function value -5.4312991e+001; maximum gradient component mag -1.6870e+005
+1671 variables; iteration 790; function evaluation 818; phase 1
+Function value -1.0074566e+002; maximum gradient component mag -1.6873e+005
+1671 variables; iteration 800; function evaluation 828; phase 1
+Function value -1.4829393e+002; maximum gradient component mag -1.6804e+005
+1671 variables; iteration 810; function evaluation 838; phase 1
+Function value -1.8692573e+002; maximum gradient component mag -1.6801e+005
+1671 variables; iteration 820; function evaluation 848; phase 1
+Function value -2.2826267e+002; maximum gradient component mag -1.5629e+005
+1671 variables; iteration 830; function evaluation 858; phase 1
+Function value -2.8025254e+002; maximum gradient component mag -1.3708e+005
+1671 variables; iteration 840; function evaluation 868; phase 1
+Function value -3.2907033e+002; maximum gradient component mag -1.3377e+005
+1671 variables; iteration 850; function evaluation 878; phase 1
+Function value -3.7702419e+002; maximum gradient component mag -1.3556e+005
+1671 variables; iteration 860; function evaluation 888; phase 1
+Function value -4.1930731e+002; maximum gradient component mag -1.2642e+005
+1671 variables; iteration 870; function evaluation 898; phase 1
+Function value -4.6109415e+002; maximum gradient component mag -1.3055e+005
+1671 variables; iteration 880; function evaluation 908; phase 1
+Function value -5.0731685e+002; maximum gradient component mag -1.3436e+005
+1671 variables; iteration 890; function evaluation 918; phase 1
+Function value -5.5122999e+002; maximum gradient component mag -1.4293e+005
+1671 variables; iteration 900; function evaluation 929; phase 1
+Function value -6.0353449e+002; maximum gradient component mag  1.1679e+005
+1671 variables; iteration 910; function evaluation 939; phase 1
+Function value -6.4308257e+002; maximum gradient component mag  1.1202e+005
+1671 variables; iteration 920; function evaluation 949; phase 1
+Function value -6.8731842e+002; maximum gradient component mag  1.1299e+005
+1671 variables; iteration 930; function evaluation 959; phase 1
+Function value -7.2787251e+002; maximum gradient component mag  1.0916e+005
+1671 variables; iteration 940; function evaluation 969; phase 1
+Function value -7.6788291e+002; maximum gradient component mag  1.0761e+005
+1671 variables; iteration 950; function evaluation 979; phase 1
+Function value -8.0328395e+002; maximum gradient component mag  1.0635e+005
+1671 variables; iteration 960; function evaluation 989; phase 1
+Function value -8.3831170e+002; maximum gradient component mag  1.0649e+005
+1671 variables; iteration 970; function evaluation 999; phase 1
+Function value -8.6878303e+002; maximum gradient component mag  1.0492e+005
+1671 variables; iteration 980; function evaluation 1009; phase 1
+Function value -8.9708959e+002; maximum gradient component mag  1.0177e+005
+1671 variables; iteration 990; function evaluation 1019; phase 1
+Function value -9.2419550e+002; maximum gradient component mag  9.9133e+004
+1671 variables; iteration 1000; function evaluation 1029; phase 1
+Function value -9.5300196e+002; maximum gradient component mag  9.7188e+004
+1671 variables; iteration 1010; function evaluation 1039; phase 1
+Function value -9.8730683e+002; maximum gradient component mag  9.4924e+004
+1671 variables; iteration 1020; function evaluation 1049; phase 1
+Function value -1.0242171e+003; maximum gradient component mag  9.3918e+004
+1671 variables; iteration 1030; function evaluation 1059; phase 1
+Function value -1.0537738e+003; maximum gradient component mag  9.1539e+004
+1671 variables; iteration 1040; function evaluation 1069; phase 1
+Function value -1.0843978e+003; maximum gradient component mag  8.9809e+004
+1671 variables; iteration 1050; function evaluation 1079; phase 1
+Function value -1.1198750e+003; maximum gradient component mag  8.8476e+004
+1671 variables; iteration 1060; function evaluation 1089; phase 1
+Function value -1.1542299e+003; maximum gradient component mag  8.6127e+004
+1671 variables; iteration 1070; function evaluation 1099; phase 1
+Function value -1.1880299e+003; maximum gradient component mag  7.9956e+004
+1671 variables; iteration 1080; function evaluation 1109; phase 1
+Function value -1.2199933e+003; maximum gradient component mag  7.4645e+004
+1671 variables; iteration 1090; function evaluation 1119; phase 1
+Function value -1.2502253e+003; maximum gradient component mag  7.2258e+004
+1671 variables; iteration 1100; function evaluation 1129; phase 1
+Function value -1.2823420e+003; maximum gradient component mag  7.3873e+004
+1671 variables; iteration 1110; function evaluation 1139; phase 1
+Function value -1.3110385e+003; maximum gradient component mag  7.0559e+004
+1671 variables; iteration 1120; function evaluation 1149; phase 1
+Function value -1.3364776e+003; maximum gradient component mag  6.6763e+004
+1671 variables; iteration 1130; function evaluation 1159; phase 1
+Function value -1.3634867e+003; maximum gradient component mag  6.3711e+004
+1671 variables; iteration 1140; function evaluation 1169; phase 1
+Function value -1.3949788e+003; maximum gradient component mag  6.2129e+004
+1671 variables; iteration 1150; function evaluation 1179; phase 1
+Function value -1.4241797e+003; maximum gradient component mag  5.9993e+004
+1671 variables; iteration 1160; function evaluation 1189; phase 1
+Function value -1.4467826e+003; maximum gradient component mag  5.6587e+004
+1671 variables; iteration 1170; function evaluation 1199; phase 1
+Function value -1.4683957e+003; maximum gradient component mag  5.3856e+004
+1671 variables; iteration 1180; function evaluation 1209; phase 1
+Function value -1.4901090e+003; maximum gradient component mag  5.3699e+004
+1671 variables; iteration 1190; function evaluation 1219; phase 1
+Function value -1.5128953e+003; maximum gradient component mag  5.3414e+004
+1671 variables; iteration 1200; function evaluation 1229; phase 1
+Function value -1.5326487e+003; maximum gradient component mag  5.1671e+004
+1671 variables; iteration 1210; function evaluation 1239; phase 1
+Function value -1.5489836e+003; maximum gradient component mag  5.0077e+004
+1671 variables; iteration 1220; function evaluation 1249; phase 1
+Function value -1.5670521e+003; maximum gradient component mag  4.8929e+004
+1671 variables; iteration 1230; function evaluation 1259; phase 1
+Function value -1.5858988e+003; maximum gradient component mag  4.6332e+004
+1671 variables; iteration 1240; function evaluation 1269; phase 1
+Function value -1.6040033e+003; maximum gradient component mag  4.5094e+004
+1671 variables; iteration 1250; function evaluation 1279; phase 1
+Function value -1.6201333e+003; maximum gradient component mag  4.1854e+004
+1671 variables; iteration 1260; function evaluation 1289; phase 1
+Function value -1.6353537e+003; maximum gradient component mag  4.1026e+004
+1671 variables; iteration 1270; function evaluation 1299; phase 1
+Function value -1.6489521e+003; maximum gradient component mag  4.1769e+004
+1671 variables; iteration 1280; function evaluation 1309; phase 1
+Function value -1.6617205e+003; maximum gradient component mag  4.1534e+004
+1671 variables; iteration 1290; function evaluation 1319; phase 1
+Function value -1.6735555e+003; maximum gradient component mag  4.1590e+004
+1671 variables; iteration 1300; function evaluation 1329; phase 1
+Function value -1.6862916e+003; maximum gradient component mag  3.8708e+004
+1671 variables; iteration 1310; function evaluation 1339; phase 1
+Function value -1.6973108e+003; maximum gradient component mag  3.6913e+004
+1671 variables; iteration 1320; function evaluation 1349; phase 1
+Function value -1.7076947e+003; maximum gradient component mag  3.6495e+004
+1671 variables; iteration 1330; function evaluation 1359; phase 1
+Function value -1.7175417e+003; maximum gradient component mag  3.7219e+004
+1671 variables; iteration 1340; function evaluation 1369; phase 1
+Function value -1.7287390e+003; maximum gradient component mag  3.5986e+004
+1671 variables; iteration 1350; function evaluation 1379; phase 1
+Function value -1.7399650e+003; maximum gradient component mag  3.5011e+004
+1671 variables; iteration 1360; function evaluation 1390; phase 1
+Function value -1.7495235e+003; maximum gradient component mag  3.4035e+004
+1671 variables; iteration 1370; function evaluation 1400; phase 1
+Function value -1.7638997e+003; maximum gradient component mag  3.2767e+004
+1671 variables; iteration 1380; function evaluation 1410; phase 1
+Function value -1.7821064e+003; maximum gradient component mag  3.2114e+004
+1671 variables; iteration 1390; function evaluation 1420; phase 1
+Function value -1.8108226e+003; maximum gradient component mag  3.0932e+004
+1671 variables; iteration 1400; function evaluation 1430; phase 1
+Function value -1.8435546e+003; maximum gradient component mag  2.6329e+004
+1671 variables; iteration 1410; function evaluation 1440; phase 1
+Function value -1.8681123e+003; maximum gradient component mag  2.2495e+004
+1671 variables; iteration 1420; function evaluation 1450; phase 1
+Function value -1.8995745e+003; maximum gradient component mag  1.9586e+004
+1671 variables; iteration 1430; function evaluation 1460; phase 1
+Function value -1.9230839e+003; maximum gradient component mag  2.2701e+004
+1671 variables; iteration 1440; function evaluation 1470; phase 1
+Function value -1.9483835e+003; maximum gradient component mag  2.4604e+004
+1671 variables; iteration 1450; function evaluation 1480; phase 1
+Function value -1.9749327e+003; maximum gradient component mag  2.5101e+004
+1671 variables; iteration 1460; function evaluation 1490; phase 1
+Function value -1.9944041e+003; maximum gradient component mag  2.3399e+004
+1671 variables; iteration 1470; function evaluation 1500; phase 1
+Function value -2.0139992e+003; maximum gradient component mag  2.5621e+004
+1671 variables; iteration 1480; function evaluation 1510; phase 1
+Function value -2.0298737e+003; maximum gradient component mag  1.9482e+004
+1671 variables; iteration 1490; function evaluation 1520; phase 1
+Function value -2.0396313e+003; maximum gradient component mag  1.9138e+004
+1671 variables; iteration 1500; function evaluation 1530; phase 1
+Function value -2.0485956e+003; maximum gradient component mag  1.1510e+004
+1671 variables; iteration 1510; function evaluation 1540; phase 1
+Function value -2.0582604e+003; maximum gradient component mag  1.5952e+004
+1671 variables; iteration 1520; function evaluation 1550; phase 1
+Function value -2.0657393e+003; maximum gradient component mag  1.7239e+004
+1671 variables; iteration 1530; function evaluation 1560; phase 1
+Function value -2.0726624e+003; maximum gradient component mag  2.1002e+004
+1671 variables; iteration 1540; function evaluation 1570; phase 1
+Function value -2.0812799e+003; maximum gradient component mag  2.1182e+004
+1671 variables; iteration 1550; function evaluation 1580; phase 1
+Function value -2.0898498e+003; maximum gradient component mag  1.6889e+004
+1671 variables; iteration 1560; function evaluation 1590; phase 1
+Function value -2.0961147e+003; maximum gradient component mag  1.4506e+004
+1671 variables; iteration 1570; function evaluation 1600; phase 1
+Function value -2.1019290e+003; maximum gradient component mag  1.8791e+004
+1671 variables; iteration 1580; function evaluation 1610; phase 1
+Function value -2.1068229e+003; maximum gradient component mag  1.1734e+004
+1671 variables; iteration 1590; function evaluation 1620; phase 1
+Function value -2.1113555e+003; maximum gradient component mag  8.0399e+003
+1671 variables; iteration 1600; function evaluation 1630; phase 1
+Function value -2.1162276e+003; maximum gradient component mag -4.4562e+003
+1671 variables; iteration 1610; function evaluation 1640; phase 1
+Function value -2.1198738e+003; maximum gradient component mag -4.2463e+003
+1671 variables; iteration 1620; function evaluation 1651; phase 1
+Function value -2.1243907e+003; maximum gradient component mag -4.7287e+003
+1671 variables; iteration 1630; function evaluation 1662; phase 1
+Function value -2.1277978e+003; maximum gradient component mag -4.9350e+003
+1671 variables; iteration 1640; function evaluation 1672; phase 1
+Function value -2.1316065e+003; maximum gradient component mag -5.2075e+003
+1671 variables; iteration 1650; function evaluation 1684; phase 1
+Function value -2.1345782e+003; maximum gradient component mag  4.4839e+003
+1671 variables; iteration 1660; function evaluation 1695; phase 1
+Function value -2.1378573e+003; maximum gradient component mag  4.7863e+003
+1671 variables; iteration 1670; function evaluation 1706; phase 1
+Function value -2.1405965e+003; maximum gradient component mag  5.8322e+003
+1671 variables; iteration 1680; function evaluation 1718; phase 1
+Function value -2.1435561e+003; maximum gradient component mag  7.0458e+003
+1671 variables; iteration 1690; function evaluation 1729; phase 1
+Function value -2.1613645e+003; maximum gradient component mag  1.1205e+004
+1671 variables; iteration 1700; function evaluation 1741; phase 1
+Function value -2.2582939e+003; maximum gradient component mag  9.8477e+003
+1671 variables; iteration 1710; function evaluation 1751; phase 1
+Function value -2.3012753e+003; maximum gradient component mag -3.1006e+003
+1671 variables; iteration 1720; function evaluation 1761; phase 1
+Function value -2.3287659e+003; maximum gradient component mag -3.3227e+003
+1671 variables; iteration 1730; function evaluation 1771; phase 1
+Function value -2.3375476e+003; maximum gradient component mag -3.2228e+003
+1671 variables; iteration 1740; function evaluation 1781; phase 1
+Function value -2.3418502e+003; maximum gradient component mag -3.6616e+003
+1671 variables; iteration 1750; function evaluation 1791; phase 1
+Function value -2.3445024e+003; maximum gradient component mag -3.3471e+003
+1671 variables; iteration 1760; function evaluation 1801; phase 1
+Function value -2.3461966e+003; maximum gradient component mag -3.0158e+003
+1671 variables; iteration 1770; function evaluation 1811; phase 1
+Function value -2.3473783e+003; maximum gradient component mag -2.8544e+003
+1671 variables; iteration 1780; function evaluation 1821; phase 1
+Function value -2.3477785e+003; maximum gradient component mag -2.7672e+003
+1671 variables; iteration 1790; function evaluation 1831; phase 1
+Function value -2.3480471e+003; maximum gradient component mag -2.5094e+003
+1671 variables; iteration 1800; function evaluation 1841; phase 1
+Function value -2.3483054e+003; maximum gradient component mag -2.0981e+003
+1671 variables; iteration 1810; function evaluation 1851; phase 1
+Function value -2.3485076e+003; maximum gradient component mag -1.3489e+003
+1671 variables; iteration 1820; function evaluation 1861; phase 1
+Function value -2.3485726e+003; maximum gradient component mag -1.2466e+003
+1671 variables; iteration 1830; function evaluation 1871; phase 1
+Function value -2.3486101e+003; maximum gradient component mag -1.1223e+003
+1671 variables; iteration 1840; function evaluation 1881; phase 1
+Function value -2.3486748e+003; maximum gradient component mag -7.9489e+002
+1671 variables; iteration 1850; function evaluation 1891; phase 1
+Function value -2.3487286e+003; maximum gradient component mag -5.3694e+002
+1671 variables; iteration 1860; function evaluation 1901; phase 1
+Function value -2.3487754e+003; maximum gradient component mag -3.3540e+002
+1671 variables; iteration 1870; function evaluation 1911; phase 1
+Function value -2.3488191e+003; maximum gradient component mag -1.8241e+002
+1671 variables; iteration 1880; function evaluation 1921; phase 1
+Function value -2.3488593e+003; maximum gradient component mag -1.0253e+002
+1671 variables; iteration 1890; function evaluation 1931; phase 1
+Function value -2.3488829e+003; maximum gradient component mag -5.3344e+001
+1671 variables; iteration 1900; function evaluation 1941; phase 1
+Function value -2.3488894e+003; maximum gradient component mag -4.5873e+001
+1671 variables; iteration 1910; function evaluation 1951; phase 1
+Function value -2.3488977e+003; maximum gradient component mag -4.7498e+001
+1671 variables; iteration 1920; function evaluation 1961; phase 1
+Function value -2.3489018e+003; maximum gradient component mag  1.7586e+001
+1671 variables; iteration 1930; function evaluation 1971; phase 1
+Function value -2.3489025e+003; maximum gradient component mag  1.1787e+001
+1671 variables; iteration 1940; function evaluation 1983; phase 1
+Function value -2.3489033e+003; maximum gradient component mag  1.6822e+001
+1671 variables; iteration 1950; function evaluation 1993; phase 1
+Function value -2.3489038e+003; maximum gradient component mag  1.2786e+001
+1671 variables; iteration 1960; function evaluation 2005; phase 1
+Function value -2.3489039e+003; maximum gradient component mag  5.8706e+000
+1671 variables; iteration 1970; function evaluation 2015; phase 1
+Function value -2.3489040e+003; maximum gradient component mag  7.1006e+000
+1671 variables; iteration 1980; function evaluation 2025; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  4.0367e+000
+1671 variables; iteration 1990; function evaluation 2035; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -2.6613e+000
+1671 variables; iteration 2000; function evaluation 2045; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  1.5382e+000
+1671 variables; iteration 2010; function evaluation 2055; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -1.3858e+000
+1671 variables; iteration 2020; function evaluation 2065; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -9.1824e-001
+1671 variables; iteration 2030; function evaluation 2075; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -5.5053e-001
+1671 variables; iteration 2040; function evaluation 2085; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  6.8157e-001
+1671 variables; iteration 2050; function evaluation 2095; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  6.0269e-001
+1671 variables; iteration 2060; function evaluation 2105; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  6.4291e-001
+1671 variables; iteration 2070; function evaluation 2115; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -3.0859e-001
+1671 variables; iteration 2080; function evaluation 2125; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -4.0592e-001
+1671 variables; iteration 2090; function evaluation 2135; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -2.2286e-001
+1671 variables; iteration 2100; function evaluation 2145; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -1.3143e-001
+1671 variables; iteration 2110; function evaluation 2155; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  1.4159e-001
+1671 variables; iteration 2120; function evaluation 2165; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  1.4845e-001
+1671 variables; iteration 2130; function evaluation 2175; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  1.0743e-001
+1671 variables; iteration 2140; function evaluation 2185; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -5.1664e-002
+1671 variables; iteration 2150; function evaluation 2195; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -7.9377e-002
+1671 variables; iteration 2160; function evaluation 2205; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -7.4109e-002
+1671 variables; iteration 2170; function evaluation 2215; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -3.3694e-002
+1671 variables; iteration 2180; function evaluation 2225; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -1.3472e-002
+1671 variables; iteration 2190; function evaluation 2235; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  2.2738e-002
+1671 variables; iteration 2200; function evaluation 2245; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  5.7618e-002
+1671 variables; iteration 2210; function evaluation 2255; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -2.7789e-002
+1671 variables; iteration 2220; function evaluation 2265; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -1.0722e-001
+1671 variables; iteration 2230; function evaluation 2275; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  1.1320e-001
+1671 variables; iteration 2240; function evaluation 2285; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -2.1365e-001
+1671 variables; iteration 2250; function evaluation 2295; phase 1
+Function value -2.3489041e+003; maximum gradient component mag  2.8777e-001
+1671 variables; iteration 2260; function evaluation 2305; phase 1
+Function value -2.3489041e+003; maximum gradient component mag -5.8190e-003
+  ic > imax  in fminim is answer attained ?
+Function minimizer not making progress ... is minimum attained?
+Minimprove criterion =  0.0000e+000
+
+ - final statistics:
+1671 variables; iteration 2266; function evaluation 2340
+Function value -2.3489e+003; maximum gradient component mag  1.2462e-003
+Exit code = 1;  converg criter  1.0000e-004
+report file: sms.rep
+
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 1
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 2
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 3
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 1
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 2
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 3
+
+Successfull completion, HURRAH - HURRAH 

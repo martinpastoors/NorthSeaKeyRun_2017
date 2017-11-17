@@ -1,0 +1,684 @@
+SMS version October 2017 using ADMB version 11.4
+November 13, 2017 11:58:49
+no. of species: 27  no. of predators: 20  no. of other predators:15
+first VPA species no.:16  first VPA species as prey:16
+PRELIMINARY_CALCS_SECTION begins
+
+observed min predator prey size ratio: 
+                  Cod        Whiting    Haddock    Saithe     Mackerel   Herring    N. sandeel S. sandeel Nor. pout  Sprat      Plaice     Sole       
+Fulmar           280.1      357.1      364.2          .          .      111.3      402.3      402.3      277.0      311.3          .          .
+Guillemot            .       66.5      142.7          .          .      156.2      383.1      383.1          .      283.4          .          .
+Her. Gull        280.1      357.1      364.2          .          .       28.6      435.5      435.5      277.0      311.3          .          .
+Kittiwake        280.1      357.1      364.2          .          .       49.4      402.3      402.3          .      547.0          .          .
+GBB. Gull        280.1      357.1      364.2          .          .       28.6      402.3      402.3      277.0      311.3          .          .
+Gannet            12.6          .          .          .          .       17.6      402.3      402.3          .      156.2          .          .
+Puffin               .          .          .          .          .      547.0      402.3      402.3          .      547.0          .          .
+Razorbill            .       79.3          .          .          .      547.0      950.6      950.6      252.5      461.3          .          .
+A. radiata       120.8       59.3          .          .          .          .       57.4       72.6       59.9          .          .          .
+G. gurnards       16.4        5.6       15.6          .          .        8.3       12.8       16.3       11.0       66.1          .          .
+W.horse mac          .          .          .          .          .          .       60.2          .       69.0          .          .          .
+N.horse mac          .       49.4          .          .          .       15.3       79.7          .          .       53.0          .          .
+Grey seal          3.6       20.6       12.9          .          .       36.7      184.5          .      118.1          .          .          .
+H. porpoise        5.6       20.6          .          .          .       36.7      184.5      184.5     1890.4          .          .          .
+Hake                 .      283.2          .          .          .        7.8          .          .        4.9          .          .          .
+Cod                6.8        5.4        7.5          .          .        3.3        7.6        4.4        7.5       11.2          .          .
+Whiting            8.2        2.4        2.3          .          .        2.2        4.5        3.0        2.1        3.7          .          .
+Haddock              .          .          .          .          .          .        5.6          .        9.4          .          .          .
+Saithe               .       16.2       13.3          .          .        5.9       34.8          .       10.3          .          .          .
+Mackerel             .          .          .          .          .       29.2       48.4        5.2       35.9       30.0          .          .
+
+observed max predator prey size ratio: 
+                  Cod        Whiting    Haddock    Saithe     Mackerel   Herring    N. sandeel S. sandeel Nor. pout  Sprat      Plaice     Sole       
+Fulmar            1305        984        472          .          .        453       8621       8621       1416       4673          .          .
+Guillemot            .        541        466          .          .       1645       5263       5263          .       4673          .          .
+Her. Gull         2033       2747        929          .          .        119       2825       2825       2262       4673          .          .
+Kittiwake         1305       1748        821          .          .        453       8621       8621          .       4673          .          .
+GBB. Gull         2033       2747        929          .          .        119       5263       5263       2262       4673          .          .
+Gannet              39          .          .          .          .        118       8621       8621          .        758          .          .
+Puffin               .          .          .          .          .       1645       8621       8621          .       4673          .          .
+Razorbill            .        512          .          .          .       1645       8621       8621        728       4673          .          .
+A. radiata        1882        176          .          .          .          .       2467        741       1660          .          .          .
+G. gurnards        482        290         82          .          .         25        780        939        353        477          .          .
+W.horse mac          .          .          .          .          .          .        344          .        278          .          .          .
+N.horse mac          .        203          .          .          .         61        210          .          .        105          .          .
+Grey seal          943       1222        387          .          .        312       6024          .        962          .          .          .
+H. porpoise       6849       9434          .          .          .       2179       6024       6024       7812          .          .          .
+Hake                 .        283          .          .          .         78          .          .       1489          .          .          .
+Cod                911       1149       1457          .          .       1372       5051       3190       4293       5202          .          .
+Whiting            125        188        111          .          .        116        489        613        389        431          .          .
+Haddock              .          .          .          .          .          .       1445          .        597          .          .          .
+Saithe               .        829        561          .          .        463       2215          .       1565          .          .          .
+Mackerel             .          .          .          .          .        231       1132        589        655        483          .          .
+
+                  Cod        Whiting    Haddock    Saithe     Mackerel   Herring    N. sandeel S. sandeel Nor. pout  Sprat      Plaice     Sole       
+Fulmar     
+Guillemot  
+Her. Gull  
+Kittiwake  
+GBB. Gull  
+Gannet     
+Puffin     
+Razorbill  
+A. radiata 
+G. gurnards
+W.horse mac
+N.horse mac
+Grey seal  
+H. porpoise
+Hake       
+Cod        
+Whiting    
+Haddock    
+Saithe     
+Mackerel    ALK exist for all prey length classes
+
+Adjusted min predator prey size ratio (according to option max.prey.pred.size.fac), to be used for calculation of M2: 
+                  Cod        Whiting    Haddock    Saithe     Mackerel   Herring    N. sandeel S. sandeel Nor. pout  Sprat      Plaice     Sole       
+Fulmar           280.1      357.1      364.2          .          .      111.3      402.3      402.3      277.0      311.3          .          .      111.3
+Guillemot            .       66.5      142.7          .          .      156.2      383.1      383.1          .      283.4          .          .       66.5
+Her. Gull        280.1      357.1      364.2          .          .       28.6      435.5      435.5      277.0      311.3          .          .       28.6
+Kittiwake        280.1      357.1      364.2          .          .       49.4      402.3      402.3          .      547.0          .          .       49.4
+GBB. Gull        280.1      357.1      364.2          .          .       28.6      402.3      402.3      277.0      311.3          .          .       28.6
+Gannet            12.6          .          .          .          .       17.6      402.3      402.3          .      156.2          .          .       12.6
+Puffin               .          .          .          .          .      547.0      402.3      402.3          .      547.0          .          .      402.3
+Razorbill            .       79.3          .          .          .      547.0      950.6      950.6      252.5      461.3          .          .       79.3
+A. radiata       120.8       59.3          .          .          .          .       57.4       72.6       59.9          .          .          .       57.4
+G. gurnards       16.4        5.6       15.6          .          .        8.3       12.8       16.3       11.0       66.1          .          .        5.6
+W.horse mac          .          .          .          .          .          .       60.2          .       69.0          .          .          .       60.2
+N.horse mac          .       49.4          .          .          .       15.3       79.7          .          .       53.0          .          .       15.3
+Grey seal          3.6       20.6       12.9          .          .       36.7      184.5          .      118.1          .          .          .        3.6
+H. porpoise        5.6       20.6          .          .          .       36.7      184.5      184.5     1890.4          .          .          .        5.6
+Hake                 .      283.2          .          .          .        7.8          .          .        4.9          .          .          .        4.9
+Cod                6.8        5.4        7.5          .          .        3.3        7.6        4.4        7.5       11.2          .          .        3.3
+Whiting            8.2        2.4        2.3          .          .        2.2        4.5        3.0        2.1        3.7          .          .        2.1
+Haddock              .          .          .          .          .          .        5.6          .        9.4          .          .          .        5.6
+Saithe               .       16.2       13.3          .          .        5.9       34.8          .       10.3          .          .          .        5.9
+Mackerel             .          .          .          .          .       29.2       48.4        5.2       35.9       30.0          .          .        5.2
+
+Area:1 pred:17, Whiting     year:1991 Q:4 pred length class:13 pred length group:100 not included, as exclusion specified in input file incl_stom.in
+
+Min observed stomach contents observations to be used:  9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-005 9.000e-009 9.000e-009 9.000e-009 9.000e-009 9.000e-005 9.000e-005
+
+Species, number of stomachs observations totally, and used
+Fulmar                             363    342
+Guillemot                          428    424
+Her. Gull                          419    406
+Kittiwake                          334    334
+GBB. Gull                          519    510
+Gannet                             306    306
+Puffin                             276    276
+Razorbill                          300    288
+A. radiata                         138    125
+G. gurnards                        359    330
+W.horse mac                         21    19
+N.horse mac                         38    38
+Grey seal                          356    270
+H. porpoise                        111    109
+Hake                                50    50
+Cod                               2309    2309
+Whiting                           1422    1422
+Haddock                            249    249
+Saithe                             412    396
+Mackerel                           204    194
+
+Number of predator-prey interaction observation used
+                  Cod        Whiting    Haddock    Saithe     Mackerel   Herring    N. sandeel S. sandeel Nor. pout  Sprat      Plaice     Sole       
+Fulmar              32         30          8          0          0         40         50         50         44         64          0          0
+Guillemot            0         78         14          0          0         56         84         84          0         84          0          0
+Her. Gull           30         54         44          0          0         72         20         20         64         78          0          0
+Kittiwake           24         24         22          0          0         40         78         78          0         44          0          0
+GBB. Gull           54         52         44          0          0         72         60         60         66         78          0          0
+Gannet              46          0          0          0          0         96         50         50          0         40          0          0
+Puffin               0          0          0          0          0         28         94         94          0         36          0          0
+Razorbill            0         40          0          0          0         28         56         56         28         62          0          0
+A. radiata           6          4          0          0          0          0         57         12         24          0          0          0
+G. gurnards         19         49          7          0          0          2         85         69         49         12          0          0
+W.horse mac          0          0          0          0          0          0          7          0          6          0          0          0
+N.horse mac          0          7          0          0          0          7          2          0          0          3          0          0
+Grey seal           75         52         52          0          0         24         34          0         25          0          0          0
+H. porpoise         33         30          0          0          0         12         14         13          4          0          0          0
+Hake                 0          1          0          0          0          7          0          0         27          0          0          0
+Cod                179        368        319          0          0        318        361        153        338        127          0          0
+Whiting             19        138         97          0          0        134        258        205        259        215          0          0
+Haddock              0          0          0          0          0          0        121          0         76          0          0          0
+Saithe               0         33         62          0          0         47         34          0        169          0          0          0
+Mackerel             0          0          0          0          0         20         38         36         31         35          0          0
+
+PRELIMINARY_CALCS_SECTION done
+Set current phase to 2
+variable out of bounds in boundpin: variable = 0.04; min = 0.04; max = 2
+variable out of bounds in boundpin: variable = 0.04; min = 0.04; max = 2
+
+Initial statistics: 1797 variables; iteration 0; function evaluation 0; phase 2
+Function value  7.2011209e+005; maximum gradient component mag -1.0589e+007
+
+Intermediate statistics: 1797 variables; iteration 10; function evaluation 21; phase 2
+Function value  2.1909554e+004; maximum gradient component mag -7.6141e+005
+1797 variables; iteration 20; function evaluation 32; phase 2
+Function value  4.0860288e+003; maximum gradient component mag  2.8424e+005
+1797 variables; iteration 30; function evaluation 42; phase 2
+Function value  4.5275309e+002; maximum gradient component mag  1.6264e+005
+1797 variables; iteration 40; function evaluation 52; phase 2
+Function value -8.8889895e+002; maximum gradient component mag  1.1559e+005
+1797 variables; iteration 50; function evaluation 63; phase 2
+Function value -1.7754935e+003; maximum gradient component mag  9.6575e+004
+1797 variables; iteration 60; function evaluation 73; phase 2
+Function value -2.1849088e+003; maximum gradient component mag  8.8356e+004
+1797 variables; iteration 70; function evaluation 83; phase 2
+Function value -2.4595250e+003; maximum gradient component mag  8.1704e+004
+1797 variables; iteration 80; function evaluation 94; phase 2
+Function value -2.6476256e+003; maximum gradient component mag  7.6992e+004
+1797 variables; iteration 90; function evaluation 104; phase 2
+Function value -2.7865490e+003; maximum gradient component mag  7.0912e+004
+1797 variables; iteration 100; function evaluation 114; phase 2
+Function value -2.9213660e+003; maximum gradient component mag  7.1757e+004
+1797 variables; iteration 110; function evaluation 124; phase 2
+Function value -3.0374651e+003; maximum gradient component mag  6.8195e+004
+1797 variables; iteration 120; function evaluation 134; phase 2
+Function value -3.1705296e+003; maximum gradient component mag  5.7179e+004
+1797 variables; iteration 130; function evaluation 144; phase 2
+Function value -3.2578013e+003; maximum gradient component mag  5.1912e+004
+1797 variables; iteration 140; function evaluation 154; phase 2
+Function value -3.3446970e+003; maximum gradient component mag  4.4452e+004
+1797 variables; iteration 150; function evaluation 164; phase 2
+Function value -3.4113735e+003; maximum gradient component mag  4.2551e+004
+1797 variables; iteration 160; function evaluation 174; phase 2
+Function value -3.4593925e+003; maximum gradient component mag  4.3396e+004
+1797 variables; iteration 170; function evaluation 184; phase 2
+Function value -3.5022981e+003; maximum gradient component mag  4.4980e+004
+1797 variables; iteration 180; function evaluation 194; phase 2
+Function value -3.5303879e+003; maximum gradient component mag  4.7575e+004
+1797 variables; iteration 190; function evaluation 204; phase 2
+Function value -3.5540756e+003; maximum gradient component mag  4.7111e+004
+1797 variables; iteration 200; function evaluation 214; phase 2
+Function value -3.5745022e+003; maximum gradient component mag  4.7288e+004
+1797 variables; iteration 210; function evaluation 224; phase 2
+Function value -3.5938814e+003; maximum gradient component mag  4.5345e+004
+1797 variables; iteration 220; function evaluation 234; phase 2
+Function value -3.6116403e+003; maximum gradient component mag  4.5270e+004
+1797 variables; iteration 230; function evaluation 244; phase 2
+Function value -3.6310481e+003; maximum gradient component mag  4.5972e+004
+1797 variables; iteration 240; function evaluation 254; phase 2
+Function value -3.6494398e+003; maximum gradient component mag  4.6924e+004
+1797 variables; iteration 250; function evaluation 264; phase 2
+Function value -3.6692949e+003; maximum gradient component mag  4.6377e+004
+1797 variables; iteration 260; function evaluation 274; phase 2
+Function value -3.6914114e+003; maximum gradient component mag  4.6147e+004
+1797 variables; iteration 270; function evaluation 284; phase 2
+Function value -3.7162873e+003; maximum gradient component mag  4.5351e+004
+1797 variables; iteration 280; function evaluation 294; phase 2
+Function value -3.7376163e+003; maximum gradient component mag  4.4154e+004
+1797 variables; iteration 290; function evaluation 304; phase 2
+Function value -3.7606720e+003; maximum gradient component mag  4.2288e+004
+1797 variables; iteration 300; function evaluation 314; phase 2
+Function value -3.7724434e+003; maximum gradient component mag  4.0908e+004
+1797 variables; iteration 310; function evaluation 324; phase 2
+Function value -3.7884344e+003; maximum gradient component mag  4.1600e+004
+1797 variables; iteration 320; function evaluation 334; phase 2
+Function value -3.8049223e+003; maximum gradient component mag  4.2617e+004
+1797 variables; iteration 330; function evaluation 344; phase 2
+Function value -3.8230747e+003; maximum gradient component mag  4.4022e+004
+1797 variables; iteration 340; function evaluation 354; phase 2
+Function value -3.8384092e+003; maximum gradient component mag  4.2494e+004
+1797 variables; iteration 350; function evaluation 364; phase 2
+Function value -3.8549429e+003; maximum gradient component mag  4.3823e+004
+1797 variables; iteration 360; function evaluation 374; phase 2
+Function value -3.8683860e+003; maximum gradient component mag  4.4904e+004
+1797 variables; iteration 370; function evaluation 384; phase 2
+Function value -3.8833371e+003; maximum gradient component mag  4.4802e+004
+1797 variables; iteration 380; function evaluation 394; phase 2
+Function value -3.8977156e+003; maximum gradient component mag  4.5459e+004
+1797 variables; iteration 390; function evaluation 404; phase 2
+Function value -3.9088909e+003; maximum gradient component mag  4.5218e+004
+1797 variables; iteration 400; function evaluation 414; phase 2
+Function value -3.9203535e+003; maximum gradient component mag  4.5336e+004
+1797 variables; iteration 410; function evaluation 424; phase 2
+Function value -3.9319107e+003; maximum gradient component mag  4.6699e+004
+1797 variables; iteration 420; function evaluation 434; phase 2
+Function value -3.9458852e+003; maximum gradient component mag  4.6684e+004
+1797 variables; iteration 430; function evaluation 444; phase 2
+Function value -3.9666592e+003; maximum gradient component mag  4.8174e+004
+1797 variables; iteration 440; function evaluation 454; phase 2
+Function value -3.9892013e+003; maximum gradient component mag  4.7546e+004
+1797 variables; iteration 450; function evaluation 464; phase 2
+Function value -4.0142493e+003; maximum gradient component mag  4.7480e+004
+1797 variables; iteration 460; function evaluation 474; phase 2
+Function value -4.0356077e+003; maximum gradient component mag  4.7154e+004
+1797 variables; iteration 470; function evaluation 484; phase 2
+Function value -4.0577270e+003; maximum gradient component mag  4.6023e+004
+1797 variables; iteration 480; function evaluation 494; phase 2
+Function value -4.1015720e+003; maximum gradient component mag  4.3863e+004
+1797 variables; iteration 490; function evaluation 504; phase 2
+Function value -4.1398363e+003; maximum gradient component mag  4.3045e+004
+1797 variables; iteration 500; function evaluation 514; phase 2
+Function value -4.1665103e+003; maximum gradient component mag  4.2552e+004
+1797 variables; iteration 510; function evaluation 524; phase 2
+Function value -4.1900020e+003; maximum gradient component mag  4.1034e+004
+1797 variables; iteration 520; function evaluation 534; phase 2
+Function value -4.2141053e+003; maximum gradient component mag  3.8890e+004
+1797 variables; iteration 530; function evaluation 544; phase 2
+Function value -4.2425697e+003; maximum gradient component mag  3.8233e+004
+1797 variables; iteration 540; function evaluation 554; phase 2
+Function value -4.2697325e+003; maximum gradient component mag  3.6802e+004
+1797 variables; iteration 550; function evaluation 564; phase 2
+Function value -4.2928933e+003; maximum gradient component mag  3.6984e+004
+1797 variables; iteration 560; function evaluation 574; phase 2
+Function value -4.3109033e+003; maximum gradient component mag  3.6604e+004
+1797 variables; iteration 570; function evaluation 584; phase 2
+Function value -4.3299459e+003; maximum gradient component mag  3.8909e+004
+1797 variables; iteration 580; function evaluation 594; phase 2
+Function value -4.3468487e+003; maximum gradient component mag  3.8571e+004
+1797 variables; iteration 590; function evaluation 604; phase 2
+Function value -4.3591624e+003; maximum gradient component mag  3.7801e+004
+1797 variables; iteration 600; function evaluation 614; phase 2
+Function value -4.3704597e+003; maximum gradient component mag  3.7732e+004
+1797 variables; iteration 610; function evaluation 624; phase 2
+Function value -4.3798583e+003; maximum gradient component mag  3.7214e+004
+1797 variables; iteration 620; function evaluation 634; phase 2
+Function value -4.3886208e+003; maximum gradient component mag  3.5788e+004
+1797 variables; iteration 630; function evaluation 644; phase 2
+Function value -4.3969630e+003; maximum gradient component mag  3.5806e+004
+1797 variables; iteration 640; function evaluation 654; phase 2
+Function value -4.4050710e+003; maximum gradient component mag  3.4921e+004
+1797 variables; iteration 650; function evaluation 664; phase 2
+Function value -4.4127718e+003; maximum gradient component mag  3.4579e+004
+1797 variables; iteration 660; function evaluation 674; phase 2
+Function value -4.4202097e+003; maximum gradient component mag  3.4208e+004
+1797 variables; iteration 670; function evaluation 684; phase 2
+Function value -4.4282706e+003; maximum gradient component mag  3.3320e+004
+1797 variables; iteration 680; function evaluation 694; phase 2
+Function value -4.4363660e+003; maximum gradient component mag  3.2429e+004
+1797 variables; iteration 690; function evaluation 704; phase 2
+Function value -4.4454021e+003; maximum gradient component mag  3.1535e+004
+1797 variables; iteration 700; function evaluation 714; phase 2
+Function value -4.4555192e+003; maximum gradient component mag  3.0910e+004
+1797 variables; iteration 710; function evaluation 724; phase 2
+Function value -4.4655045e+003; maximum gradient component mag  3.0401e+004
+1797 variables; iteration 720; function evaluation 734; phase 2
+Function value -4.4740619e+003; maximum gradient component mag  2.9322e+004
+1797 variables; iteration 730; function evaluation 744; phase 2
+Function value -4.4800332e+003; maximum gradient component mag  2.9792e+004
+1797 variables; iteration 740; function evaluation 754; phase 2
+Function value -4.4846684e+003; maximum gradient component mag  2.9316e+004
+1797 variables; iteration 750; function evaluation 764; phase 2
+Function value -4.4899216e+003; maximum gradient component mag  2.8424e+004
+1797 variables; iteration 760; function evaluation 774; phase 2
+Function value -4.4997816e+003; maximum gradient component mag  2.8444e+004
+1797 variables; iteration 770; function evaluation 784; phase 2
+Function value -4.5104342e+003; maximum gradient component mag  2.8250e+004
+1797 variables; iteration 780; function evaluation 794; phase 2
+Function value -4.5191340e+003; maximum gradient component mag  2.8054e+004
+1797 variables; iteration 790; function evaluation 804; phase 2
+Function value -4.5262185e+003; maximum gradient component mag  2.7563e+004
+1797 variables; iteration 800; function evaluation 814; phase 2
+Function value -4.5331142e+003; maximum gradient component mag  2.7892e+004
+1797 variables; iteration 810; function evaluation 824; phase 2
+Function value -4.5415615e+003; maximum gradient component mag  2.7142e+004
+1797 variables; iteration 820; function evaluation 834; phase 2
+Function value -4.5500600e+003; maximum gradient component mag  2.6942e+004
+1797 variables; iteration 830; function evaluation 844; phase 2
+Function value -4.5597836e+003; maximum gradient component mag  2.6935e+004
+1797 variables; iteration 840; function evaluation 854; phase 2
+Function value -4.5694515e+003; maximum gradient component mag  2.6668e+004
+1797 variables; iteration 850; function evaluation 865; phase 2
+Function value -4.5765986e+003; maximum gradient component mag  2.6540e+004
+1797 variables; iteration 860; function evaluation 875; phase 2
+Function value -4.5852629e+003; maximum gradient component mag  2.5786e+004
+1797 variables; iteration 870; function evaluation 885; phase 2
+Function value -4.5955499e+003; maximum gradient component mag  2.5476e+004
+1797 variables; iteration 880; function evaluation 895; phase 2
+Function value -4.6038941e+003; maximum gradient component mag  2.4292e+004
+1797 variables; iteration 890; function evaluation 905; phase 2
+Function value -4.6118706e+003; maximum gradient component mag  2.2853e+004
+1797 variables; iteration 900; function evaluation 915; phase 2
+Function value -4.6186964e+003; maximum gradient component mag  2.2395e+004
+1797 variables; iteration 910; function evaluation 925; phase 2
+Function value -4.6247673e+003; maximum gradient component mag  2.2059e+004
+1797 variables; iteration 920; function evaluation 935; phase 2
+Function value -4.6310290e+003; maximum gradient component mag  2.1636e+004
+1797 variables; iteration 930; function evaluation 945; phase 2
+Function value -4.6387628e+003; maximum gradient component mag  2.1284e+004
+1797 variables; iteration 940; function evaluation 955; phase 2
+Function value -4.6485159e+003; maximum gradient component mag  2.0636e+004
+1797 variables; iteration 950; function evaluation 965; phase 2
+Function value -4.6609225e+003; maximum gradient component mag  1.9286e+004
+1797 variables; iteration 960; function evaluation 975; phase 2
+Function value -4.6729166e+003; maximum gradient component mag  1.8858e+004
+1797 variables; iteration 970; function evaluation 985; phase 2
+Function value -4.6815436e+003; maximum gradient component mag  1.8475e+004
+1797 variables; iteration 980; function evaluation 995; phase 2
+Function value -4.6893182e+003; maximum gradient component mag  1.8283e+004
+1797 variables; iteration 990; function evaluation 1005; phase 2
+Function value -4.6961403e+003; maximum gradient component mag  1.7674e+004
+1797 variables; iteration 1000; function evaluation 1015; phase 2
+Function value -4.7015766e+003; maximum gradient component mag  1.6399e+004
+1797 variables; iteration 1010; function evaluation 1025; phase 2
+Function value -4.7077855e+003; maximum gradient component mag  1.5821e+004
+1797 variables; iteration 1020; function evaluation 1035; phase 2
+Function value -4.7162366e+003; maximum gradient component mag  1.5144e+004
+1797 variables; iteration 1030; function evaluation 1045; phase 2
+Function value -4.7236685e+003; maximum gradient component mag  1.4812e+004
+1797 variables; iteration 1040; function evaluation 1055; phase 2
+Function value -4.7321694e+003; maximum gradient component mag  1.4177e+004
+1797 variables; iteration 1050; function evaluation 1065; phase 2
+Function value -4.7401527e+003; maximum gradient component mag  1.2924e+004
+1797 variables; iteration 1060; function evaluation 1075; phase 2
+Function value -4.7474637e+003; maximum gradient component mag  1.2175e+004
+1797 variables; iteration 1070; function evaluation 1085; phase 2
+Function value -4.7544284e+003; maximum gradient component mag  1.1627e+004
+1797 variables; iteration 1080; function evaluation 1095; phase 2
+Function value -4.7600961e+003; maximum gradient component mag  1.1372e+004
+1797 variables; iteration 1090; function evaluation 1105; phase 2
+Function value -4.7668514e+003; maximum gradient component mag  1.0527e+004
+1797 variables; iteration 1100; function evaluation 1115; phase 2
+Function value -4.7716942e+003; maximum gradient component mag  1.0131e+004
+1797 variables; iteration 1110; function evaluation 1125; phase 2
+Function value -4.7751439e+003; maximum gradient component mag  9.2169e+003
+1797 variables; iteration 1120; function evaluation 1135; phase 2
+Function value -4.7792840e+003; maximum gradient component mag  1.0059e+004
+1797 variables; iteration 1130; function evaluation 1145; phase 2
+Function value -4.7845260e+003; maximum gradient component mag  1.0758e+004
+1797 variables; iteration 1140; function evaluation 1155; phase 2
+Function value -4.7889009e+003; maximum gradient component mag  9.0471e+003
+1797 variables; iteration 1150; function evaluation 1165; phase 2
+Function value -4.7925693e+003; maximum gradient component mag  8.0813e+003
+1797 variables; iteration 1160; function evaluation 1175; phase 2
+Function value -4.7961780e+003; maximum gradient component mag  7.8363e+003
+1797 variables; iteration 1170; function evaluation 1185; phase 2
+Function value -4.7992749e+003; maximum gradient component mag  7.0876e+003
+1797 variables; iteration 1180; function evaluation 1195; phase 2
+Function value -4.8018035e+003; maximum gradient component mag  6.3429e+003
+1797 variables; iteration 1190; function evaluation 1205; phase 2
+Function value -4.8045759e+003; maximum gradient component mag  5.8835e+003
+1797 variables; iteration 1200; function evaluation 1215; phase 2
+Function value -4.8080245e+003; maximum gradient component mag  5.6340e+003
+1797 variables; iteration 1210; function evaluation 1225; phase 2
+Function value -4.8109431e+003; maximum gradient component mag  5.1283e+003
+1797 variables; iteration 1220; function evaluation 1235; phase 2
+Function value -4.8134007e+003; maximum gradient component mag  5.1933e+003
+1797 variables; iteration 1230; function evaluation 1245; phase 2
+Function value -4.8156615e+003; maximum gradient component mag  5.0055e+003
+1797 variables; iteration 1240; function evaluation 1255; phase 2
+Function value -4.8181479e+003; maximum gradient component mag  4.8301e+003
+1797 variables; iteration 1250; function evaluation 1265; phase 2
+Function value -4.8208240e+003; maximum gradient component mag  4.7358e+003
+1797 variables; iteration 1260; function evaluation 1275; phase 2
+Function value -4.8231039e+003; maximum gradient component mag  5.0859e+003
+1797 variables; iteration 1270; function evaluation 1285; phase 2
+Function value -4.8254321e+003; maximum gradient component mag  5.7405e+003
+1797 variables; iteration 1280; function evaluation 1295; phase 2
+Function value -4.8273464e+003; maximum gradient component mag  4.6721e+003
+1797 variables; iteration 1290; function evaluation 1305; phase 2
+Function value -4.8297574e+003; maximum gradient component mag  4.9181e+003
+1797 variables; iteration 1300; function evaluation 1315; phase 2
+Function value -4.8322598e+003; maximum gradient component mag  5.1347e+003
+1797 variables; iteration 1310; function evaluation 1325; phase 2
+Function value -4.8341633e+003; maximum gradient component mag  5.6219e+003
+1797 variables; iteration 1320; function evaluation 1335; phase 2
+Function value -4.8358885e+003; maximum gradient component mag  5.3290e+003
+1797 variables; iteration 1330; function evaluation 1345; phase 2
+Function value -4.8375778e+003; maximum gradient component mag  5.0740e+003
+1797 variables; iteration 1340; function evaluation 1355; phase 2
+Function value -4.8398370e+003; maximum gradient component mag  5.0826e+003
+1797 variables; iteration 1350; function evaluation 1365; phase 2
+Function value -4.8426372e+003; maximum gradient component mag  3.7535e+003
+1797 variables; iteration 1360; function evaluation 1375; phase 2
+Function value -4.8448019e+003; maximum gradient component mag  3.7443e+003
+1797 variables; iteration 1370; function evaluation 1385; phase 2
+Function value -4.8464894e+003; maximum gradient component mag  3.7049e+003
+1797 variables; iteration 1380; function evaluation 1395; phase 2
+Function value -4.8487075e+003; maximum gradient component mag  3.0783e+003
+1797 variables; iteration 1390; function evaluation 1405; phase 2
+Function value -4.8508819e+003; maximum gradient component mag  2.8101e+003
+1797 variables; iteration 1400; function evaluation 1415; phase 2
+Function value -4.8524063e+003; maximum gradient component mag  2.7403e+003
+1797 variables; iteration 1410; function evaluation 1425; phase 2
+Function value -4.8541039e+003; maximum gradient component mag  3.0549e+003
+1797 variables; iteration 1420; function evaluation 1436; phase 2
+Function value -4.8564117e+003; maximum gradient component mag  3.1633e+003
+1797 variables; iteration 1430; function evaluation 1447; phase 2
+Function value -4.8573186e+003; maximum gradient component mag  2.9330e+003
+1797 variables; iteration 1440; function evaluation 1457; phase 2
+Function value -4.8595187e+003; maximum gradient component mag  3.0018e+003
+1797 variables; iteration 1450; function evaluation 1467; phase 2
+Function value -4.8617389e+003; maximum gradient component mag  3.2727e+003
+1797 variables; iteration 1460; function evaluation 1477; phase 2
+Function value -4.8639418e+003; maximum gradient component mag  2.8181e+003
+1797 variables; iteration 1470; function evaluation 1487; phase 2
+Function value -4.8677244e+003; maximum gradient component mag  2.7948e+003
+1797 variables; iteration 1480; function evaluation 1497; phase 2
+Function value -4.8737177e+003; maximum gradient component mag  3.0179e+003
+1797 variables; iteration 1490; function evaluation 1507; phase 2
+Function value -4.8772433e+003; maximum gradient component mag  3.0403e+003
+1797 variables; iteration 1500; function evaluation 1517; phase 2
+Function value -4.8822875e+003; maximum gradient component mag  4.3939e+003
+1797 variables; iteration 1510; function evaluation 1527; phase 2
+Function value -4.8887555e+003; maximum gradient component mag  4.1196e+003
+1797 variables; iteration 1520; function evaluation 1537; phase 2
+Function value -4.8949710e+003; maximum gradient component mag  3.9050e+003
+1797 variables; iteration 1530; function evaluation 1547; phase 2
+Function value -4.8989116e+003; maximum gradient component mag  3.9349e+003
+1797 variables; iteration 1540; function evaluation 1557; phase 2
+Function value -4.9039993e+003; maximum gradient component mag -4.3104e+003
+1797 variables; iteration 1550; function evaluation 1567; phase 2
+Function value -4.9105644e+003; maximum gradient component mag -4.5101e+003
+1797 variables; iteration 1560; function evaluation 1577; phase 2
+Function value -4.9157456e+003; maximum gradient component mag -4.5146e+003
+1797 variables; iteration 1570; function evaluation 1587; phase 2
+Function value -4.9211819e+003; maximum gradient component mag -6.3878e+003
+1797 variables; iteration 1580; function evaluation 1597; phase 2
+Function value -4.9264217e+003; maximum gradient component mag -4.4254e+003
+1797 variables; iteration 1590; function evaluation 1607; phase 2
+Function value -4.9327738e+003; maximum gradient component mag -6.7799e+003
+1797 variables; iteration 1600; function evaluation 1617; phase 2
+Function value -4.9375458e+003; maximum gradient component mag -4.6256e+003
+1797 variables; iteration 1610; function evaluation 1627; phase 2
+Function value -4.9419195e+003; maximum gradient component mag -4.8463e+003
+1797 variables; iteration 1620; function evaluation 1637; phase 2
+Function value -4.9451705e+003; maximum gradient component mag -5.3021e+003
+1797 variables; iteration 1630; function evaluation 1647; phase 2
+Function value -4.9485324e+003; maximum gradient component mag -4.3035e+003
+1797 variables; iteration 1640; function evaluation 1657; phase 2
+Function value -4.9534622e+003; maximum gradient component mag -4.4436e+003
+1797 variables; iteration 1650; function evaluation 1667; phase 2
+Function value -4.9577798e+003; maximum gradient component mag -3.2195e+003
+1797 variables; iteration 1660; function evaluation 1677; phase 2
+Function value -4.9615952e+003; maximum gradient component mag -6.7399e+003
+1797 variables; iteration 1670; function evaluation 1687; phase 2
+Function value -4.9654552e+003; maximum gradient component mag -6.0854e+003
+1797 variables; iteration 1680; function evaluation 1697; phase 2
+Function value -4.9691814e+003; maximum gradient component mag -5.6935e+003
+1797 variables; iteration 1690; function evaluation 1707; phase 2
+Function value -4.9725809e+003; maximum gradient component mag -5.6787e+003
+1797 variables; iteration 1700; function evaluation 1717; phase 2
+Function value -4.9762416e+003; maximum gradient component mag -5.7260e+003
+1797 variables; iteration 1710; function evaluation 1727; phase 2
+Function value -4.9830023e+003; maximum gradient component mag -5.1024e+003
+1797 variables; iteration 1720; function evaluation 1737; phase 2
+Function value -4.9885357e+003; maximum gradient component mag -5.5301e+003
+1797 variables; iteration 1730; function evaluation 1747; phase 2
+Function value -4.9939216e+003; maximum gradient component mag -5.0131e+003
+1797 variables; iteration 1740; function evaluation 1757; phase 2
+Function value -4.9984069e+003; maximum gradient component mag -3.5770e+003
+1797 variables; iteration 1750; function evaluation 1767; phase 2
+Function value -5.0016297e+003; maximum gradient component mag -3.6674e+003
+1797 variables; iteration 1760; function evaluation 1778; phase 2
+Function value -5.0047106e+003; maximum gradient component mag -3.9642e+003
+1797 variables; iteration 1770; function evaluation 1788; phase 2
+Function value -5.0074508e+003; maximum gradient component mag -3.7469e+003
+1797 variables; iteration 1780; function evaluation 1798; phase 2
+Function value -5.0123460e+003; maximum gradient component mag -2.0987e+003
+1797 variables; iteration 1790; function evaluation 1808; phase 2
+Function value -5.0185427e+003; maximum gradient component mag -2.9592e+003
+1797 variables; iteration 1800; function evaluation 1818; phase 2
+Function value -5.0267504e+003; maximum gradient component mag -1.4129e+003
+1797 variables; iteration 1810; function evaluation 1828; phase 2
+Function value -5.0330678e+003; maximum gradient component mag -2.4804e+003
+1797 variables; iteration 1820; function evaluation 1838; phase 2
+Function value -5.0385751e+003; maximum gradient component mag  1.7818e+003
+1797 variables; iteration 1830; function evaluation 1848; phase 2
+Function value -5.0425012e+003; maximum gradient component mag -6.6173e+002
+1797 variables; iteration 1840; function evaluation 1858; phase 2
+Function value -5.0455250e+003; maximum gradient component mag -8.0598e+002
+1797 variables; iteration 1850; function evaluation 1868; phase 2
+Function value -5.0493699e+003; maximum gradient component mag -1.3266e+003
+1797 variables; iteration 1860; function evaluation 1878; phase 2
+Function value -5.0556541e+003; maximum gradient component mag -6.3353e+002
+1797 variables; iteration 1870; function evaluation 1888; phase 2
+Function value -5.0605784e+003; maximum gradient component mag  8.0072e+002
+1797 variables; iteration 1880; function evaluation 1898; phase 2
+Function value -5.0640487e+003; maximum gradient component mag -6.1805e+002
+1797 variables; iteration 1890; function evaluation 1908; phase 2
+Function value -5.0661262e+003; maximum gradient component mag  6.7716e+002
+1797 variables; iteration 1900; function evaluation 1918; phase 2
+Function value -5.0697961e+003; maximum gradient component mag -1.2410e+003
+1797 variables; iteration 1910; function evaluation 1928; phase 2
+Function value -5.0736278e+003; maximum gradient component mag -7.9161e+002
+1797 variables; iteration 1920; function evaluation 1938; phase 2
+Function value -5.0762305e+003; maximum gradient component mag -1.3107e+003
+1797 variables; iteration 1930; function evaluation 1948; phase 2
+Function value -5.0796919e+003; maximum gradient component mag -1.0700e+003
+1797 variables; iteration 1940; function evaluation 1958; phase 2
+Function value -5.0823465e+003; maximum gradient component mag -1.0349e+003
+1797 variables; iteration 1950; function evaluation 1968; phase 2
+Function value -5.0844809e+003; maximum gradient component mag -8.5922e+002
+1797 variables; iteration 1960; function evaluation 1978; phase 2
+Function value -5.0855917e+003; maximum gradient component mag -5.6926e+002
+1797 variables; iteration 1970; function evaluation 1988; phase 2
+Function value -5.0865455e+003; maximum gradient component mag -5.6706e+002
+1797 variables; iteration 1980; function evaluation 1998; phase 2
+Function value -5.0870611e+003; maximum gradient component mag -3.6701e+002
+1797 variables; iteration 1990; function evaluation 2008; phase 2
+Function value -5.0874633e+003; maximum gradient component mag  3.0817e+002
+1797 variables; iteration 2000; function evaluation 2018; phase 2
+Function value -5.0878446e+003; maximum gradient component mag  2.3268e+002
+1797 variables; iteration 2010; function evaluation 2028; phase 2
+Function value -5.0882324e+003; maximum gradient component mag  3.1734e+002
+1797 variables; iteration 2020; function evaluation 2039; phase 2
+Function value -5.0883725e+003; maximum gradient component mag  4.3749e+002
+1797 variables; iteration 2030; function evaluation 2049; phase 2
+Function value -5.0886555e+003; maximum gradient component mag  5.0296e+002
+1797 variables; iteration 2040; function evaluation 2059; phase 2
+Function value -5.0890623e+003; maximum gradient component mag  4.5976e+002
+1797 variables; iteration 2050; function evaluation 2069; phase 2
+Function value -5.0893903e+003; maximum gradient component mag  3.8960e+002
+1797 variables; iteration 2060; function evaluation 2079; phase 2
+Function value -5.0899075e+003; maximum gradient component mag  4.3494e+002
+1797 variables; iteration 2070; function evaluation 2089; phase 2
+Function value -5.0905293e+003; maximum gradient component mag  3.5224e+002
+1797 variables; iteration 2080; function evaluation 2100; phase 2
+Function value -5.0906669e+003; maximum gradient component mag  1.0249e+002
+1797 variables; iteration 2090; function evaluation 2110; phase 2
+Function value -5.0907806e+003; maximum gradient component mag -1.9684e+002
+1797 variables; iteration 2100; function evaluation 2120; phase 2
+Function value -5.0908843e+003; maximum gradient component mag  1.7534e+002
+1797 variables; iteration 2110; function evaluation 2130; phase 2
+Function value -5.0909781e+003; maximum gradient component mag  1.7545e+002
+1797 variables; iteration 2120; function evaluation 2140; phase 2
+Function value -5.0910833e+003; maximum gradient component mag  1.2182e+002
+1797 variables; iteration 2130; function evaluation 2150; phase 2
+Function value -5.0911746e+003; maximum gradient component mag  1.4928e+002
+1797 variables; iteration 2140; function evaluation 2160; phase 2
+Function value -5.0913409e+003; maximum gradient component mag  2.4074e+002
+1797 variables; iteration 2150; function evaluation 2170; phase 2
+Function value -5.0918465e+003; maximum gradient component mag -4.3413e+002
+1797 variables; iteration 2160; function evaluation 2180; phase 2
+Function value -5.0922977e+003; maximum gradient component mag  2.4068e+002
+1797 variables; iteration 2170; function evaluation 2190; phase 2
+Function value -5.0927008e+003; maximum gradient component mag -5.3963e+002
+1797 variables; iteration 2180; function evaluation 2200; phase 2
+Function value -5.0939751e+003; maximum gradient component mag -6.9465e+002
+1797 variables; iteration 2190; function evaluation 2211; phase 2
+Function value -5.0952162e+003; maximum gradient component mag  4.9724e+002
+1797 variables; iteration 2200; function evaluation 2221; phase 2
+Function value -5.0957413e+003; maximum gradient component mag  4.2554e+002
+1797 variables; iteration 2210; function evaluation 2232; phase 2
+Function value -5.0970556e+003; maximum gradient component mag  4.4094e+002
+1797 variables; iteration 2220; function evaluation 2242; phase 2
+Function value -5.0987768e+003; maximum gradient component mag -2.9313e+002
+1797 variables; iteration 2230; function evaluation 2252; phase 2
+Function value -5.0999627e+003; maximum gradient component mag -3.9767e+002
+1797 variables; iteration 2240; function evaluation 2263; phase 2
+Function value -5.1017592e+003; maximum gradient component mag -5.2527e+002
+1797 variables; iteration 2250; function evaluation 2273; phase 2
+Function value -5.1028123e+003; maximum gradient component mag -4.6386e+002
+1797 variables; iteration 2260; function evaluation 2283; phase 2
+Function value -5.1033993e+003; maximum gradient component mag -2.6584e+002
+1797 variables; iteration 2270; function evaluation 2293; phase 2
+Function value -5.1038477e+003; maximum gradient component mag  3.1333e+002
+1797 variables; iteration 2280; function evaluation 2303; phase 2
+Function value -5.1042253e+003; maximum gradient component mag  2.7713e+002
+1797 variables; iteration 2290; function evaluation 2313; phase 2
+Function value -5.1046172e+003; maximum gradient component mag  5.2284e+002
+1797 variables; iteration 2300; function evaluation 2323; phase 2
+Function value -5.1049308e+003; maximum gradient component mag  3.4065e+002
+1797 variables; iteration 2310; function evaluation 2333; phase 2
+Function value -5.1059096e+003; maximum gradient component mag  8.0998e+002
+1797 variables; iteration 2320; function evaluation 2343; phase 2
+Function value -5.1075478e+003; maximum gradient component mag  4.4939e+002
+1797 variables; iteration 2330; function evaluation 2355; phase 2
+Function value -5.1095704e+003; maximum gradient component mag  7.6094e+002
+1797 variables; iteration 2340; function evaluation 2365; phase 2
+Function value -5.1108743e+003; maximum gradient component mag -4.2459e+002
+1797 variables; iteration 2350; function evaluation 2375; phase 2
+Function value -5.1123612e+003; maximum gradient component mag -5.4766e+002
+1797 variables; iteration 2360; function evaluation 2385; phase 2
+Function value -5.1141132e+003; maximum gradient component mag -6.7492e+002
+1797 variables; iteration 2370; function evaluation 2395; phase 2
+Function value -5.1152404e+003; maximum gradient component mag  4.3735e+002
+1797 variables; iteration 2380; function evaluation 2405; phase 2
+Function value -5.1160670e+003; maximum gradient component mag  5.3691e+002
+1797 variables; iteration 2390; function evaluation 2415; phase 2
+Function value -5.1170290e+003; maximum gradient component mag  6.3686e+002
+1797 variables; iteration 2400; function evaluation 2425; phase 2
+Function value -5.1183145e+003; maximum gradient component mag  5.0461e+002
+1797 variables; iteration 2410; function evaluation 2435; phase 2
+Function value -5.1190091e+003; maximum gradient component mag  2.0637e+002
+1797 variables; iteration 2420; function evaluation 2445; phase 2
+Function value -5.1192619e+003; maximum gradient component mag  2.3431e+002
+1797 variables; iteration 2430; function evaluation 2455; phase 2
+Function value -5.1197123e+003; maximum gradient component mag -1.1858e+002
+1797 variables; iteration 2440; function evaluation 2465; phase 2
+Function value -5.1198985e+003; maximum gradient component mag -1.3267e+002
+1797 variables; iteration 2450; function evaluation 2475; phase 2
+Function value -5.1200049e+003; maximum gradient component mag  1.0621e+002
+1797 variables; iteration 2460; function evaluation 2485; phase 2
+Function value -5.1200523e+003; maximum gradient component mag  8.2691e+001
+1797 variables; iteration 2470; function evaluation 2495; phase 2
+Function value -5.1200628e+003; maximum gradient component mag  7.6170e+001
+1797 variables; iteration 2480; function evaluation 2505; phase 2
+Function value -5.1201128e+003; maximum gradient component mag -8.6967e+001
+1797 variables; iteration 2490; function evaluation 2515; phase 2
+Function value -5.1201266e+003; maximum gradient component mag -4.1530e+001
+1797 variables; iteration 2500; function evaluation 2525; phase 2
+Function value -5.1201610e+003; maximum gradient component mag  6.8675e+001
+1797 variables; iteration 2510; function evaluation 2535; phase 2
+Function value -5.1201808e+003; maximum gradient component mag  7.6493e+001
+1797 variables; iteration 2520; function evaluation 2545; phase 2
+Function value -5.1203008e+003; maximum gradient component mag -1.2263e+002
+1797 variables; iteration 2530; function evaluation 2555; phase 2
+Function value -5.1203165e+003; maximum gradient component mag -1.0051e+002
+1797 variables; iteration 2540; function evaluation 2565; phase 2
+Function value -5.1203727e+003; maximum gradient component mag -3.3824e+001
+1797 variables; iteration 2550; function evaluation 2575; phase 2
+Function value -5.1203775e+003; maximum gradient component mag -1.0687e+000
+1797 variables; iteration 2560; function evaluation 2585; phase 2
+Function value -5.1203775e+003; maximum gradient component mag -4.1632e-002
+  ic > imax  in fminim is answer attained ?
+Function minimizer not making progress ... is minimum attained?
+Minimprove criterion =  0.0000e+000
+
+ - final statistics:
+1797 variables; iteration 2567; function evaluation 2621
+Function value -5.1204e+003; maximum gradient component mag  1.6714e-003
+Exit code = 1;  converg criter  1.0000e-004
+report file: sms.rep
+
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 1
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 2
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 1999-2004   age 3
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 1
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 2
+Warning: CV of CPUE obs. below limit. S. sandeel  Ssa Commercial 2005-2009   age 3
+
+Successfull completion, HURRAH - HURRAH 

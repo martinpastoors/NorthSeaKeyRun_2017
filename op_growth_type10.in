@@ -1,0 +1,27 @@
+# Regression Saithe-NP beta
+# k(t) = (NP(t) + NP(t-1))/2 * beta + epsilon(t-1) * phi + upsilon(t) + upsilon(t-1) * theta
+# VBGF Linf, A0, k
+# L(t) = Linf * (1 - exp(-k(t)*(t - A0))
+#  input parameters Linf, A0, my, beta,  spNo
+# Cod
+0 0 0 0 0 
+# Whiting
+0 0 0 0 0 
+#Haddock
+0 0 0 0 0 
+# Saithe
+147.5 -0.8 8.10E-02 1.20E-08  25
+# Herring
+0 0 0 0 0 
+# NSandel
+0 0 0 0  0
+# SSandeel
+0 0 0 0 0
+# Nor. pout
+0 0 0 0 0
+# Sprat
+0 0 0 0 0
+# Plaice
+0 0 0 0 0
+# Sole
+0 0 0 0 0
